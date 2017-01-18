@@ -40,9 +40,10 @@ nightly = []
 [build-dependencies]
 gl_generator = "0.5"
 
+# why are we pinned to a particular commit?
 [dependencies.glutin]
 git = "https://github.com/jwilm/glutin"
-rev = "af7fe340bd4a2af53ea521defcb4f377cdc588cf"
+rev = "6a6d7a29d5d8216a4756b6550ddb0065d556fb4a"
 
 
 [profile.release]
